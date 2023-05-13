@@ -144,7 +144,7 @@ if __name__ == "__main__":
                 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 timestamp_ = timestamp.replace(" ", "_")
                 timestamp_ = timestamp_.replace(":", "-")
-                with open("logs/note_%s.txt" % timestamp_, "w") as new_file:
+                with open("notes/note_%s.txt" % timestamp_, "w") as new_file:
                     new_file.write("Timestamp: %s\n\n" % timestamp)
                     new_file.write(note)
                 say("Note logged.")
