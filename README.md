@@ -19,4 +19,4 @@ pip install -r requirements.txt
 ```
 This shell script installs all the necessary packages specified in the requirements.txt file, ensuring that all dependencies are met to run the assistant.
 
-Please note that the OpenAI API integration is coming soon, and you'll be able to use advanced natural language processing capabilities provided by OpenAI.
+Please note that the transformers/transformers agents integration is coming soon, and you'll be able to use advanced natural language processing capabilities.
